@@ -11,12 +11,3 @@ urlpatterns = [
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) + static(settings.STATIC_URL,
                                                                                          document_root=settings.STATIC_ROOT)
 
-
-
-echo "# P23_Market" >> README.md
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:SuxrobP23/P23_Market.git
-git push -u origin main
